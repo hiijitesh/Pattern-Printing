@@ -1,7 +1,9 @@
+from sre_constants import RANGE
 
-n = int(input())
 
-for row in range(1, n+1):
-    for col in range(row, n+1):
+n = 7
+
+for row in range(n):
+    for col in range(row, n):
         print("* ", end="")
     print()
